@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ObjectAssociation.h"
 
 FOUNDATION_EXPORT double ObjectAssociationVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjectAssociationVersionString[];
