@@ -1,0 +1,6 @@
+framework module ObjectAssociation {
+  umbrella header "ObjectAssociation-umbrella.h"
+
+  export *
+  module * { export * }
+}
