@@ -10,17 +10,17 @@ import Foundation
 import ObjectAssociation
 
 extension NSObject {
-  
-  private static let association = ObjectAssociation<String>()
-  // Same as:
-//  private static let association = ObjectAssociation<String>(policy: .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-  
-  public var uniqueIdentifier: String? {
-    get {
-      return NSObject.association[self]
+    
+    private static let association = ObjectAssociation<String>()
+    // Same as:
+    //  private static let association = ObjectAssociation<String>(policy: .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+    
+    public var uniqueIdentifier: String? {
+        get {
+            return NSObject.association[self]
+        }
+        set {
+            NSObject.association[self] = newValue
+        }
     }
-    set {
-      NSObject.association[self] = newValue
-    }
-  }
 }

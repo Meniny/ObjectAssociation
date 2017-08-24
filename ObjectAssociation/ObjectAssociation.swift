@@ -28,3 +28,12 @@ public final class ObjectAssociation<AssociatedObjectType> {
     }
   }
 }
+
+public typealias BoolAssociation = ObjectAssociation<Bool>
+public typealias IntAssociation = ObjectAssociation<Int>
+public typealias FloatAssociation = ObjectAssociation<Float>
+public typealias CGFloatAssociation = ObjectAssociation<CGFloat>
+public typealias DoubleAssociation = ObjectAssociation<Double>
+public typealias StringAssociation = ObjectAssociation<String>
+public typealias AnyAssociation = ObjectAssociation<Any>
+public typealias AnyObjectAssociation = ObjectAssociation<AnyObject>
