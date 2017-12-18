@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ObjectAssociation"
-  s.version          = "1.0.1"
+  s.version          = "1.2.0"
   s.summary          = "An object association helper for Swift extensions."
   s.homepage         = "https://github.com/Meniny/ObjectAssociation"
   s.license          = 'MIT'
