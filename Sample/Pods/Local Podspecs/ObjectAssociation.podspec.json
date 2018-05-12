@@ -1,6 +1,6 @@
 {
   "name": "ObjectAssociation",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "summary": "An object association helper for Swift extensions.",
   "homepage": "https://github.com/Meniny/ObjectAssociation",
   "license": "MIT",
@@ -9,8 +9,9 @@
   },
   "source": {
     "git": "https://github.com/Meniny/ObjectAssociation.git",
-    "tag": "1.2.0"
+    "tag": "1.2.1"
   },
+  "swift_version": "4.1",
   "platforms": {
     "ios": "8.0",
     "tvos": "9.0",
