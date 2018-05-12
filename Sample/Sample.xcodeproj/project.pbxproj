@@ -26,6 +26,11 @@
 		5C8AF5C91F4AF106005AD35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C8AF5CB1F4AF106005AD35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C8AF5D31F4AF218005AD35A /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		64A13078207A063600AED761 /* ObjectAssociation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ObjectAssociation.podspec; path = ../ObjectAssociation.podspec; sourceTree = "<group>"; };
+		64A13079207A063600AED761 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		64A1307A207A063600AED761 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64A1307B207A063600AED761 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		64A1307C207A063600AED761 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; name = ".swift-version"; path = "../.swift-version"; sourceTree = "<group>"; };
 		804539FE2A370EC3DFBB6206 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B6BDA62814D959E2C01C9F95 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +59,11 @@
 		5C8AF5B31F4AF106005AD35A = {
 			isa = PBXGroup;
 			children = (
+				64A13079207A063600AED761 /* .gitignore */,
+				64A1307C207A063600AED761 /* .swift-version */,
+				64A1307B207A063600AED761 /* LICENSE.md */,
+				64A13078207A063600AED761 /* ObjectAssociation.podspec */,
+				64A1307A207A063600AED761 /* README.md */,
 				5C8AF5BE1F4AF106005AD35A /* Sample */,
 				5C8AF5BD1F4AF106005AD35A /* Products */,
 				11F1C6994505AF7C43CE31ED /* Pods */,
