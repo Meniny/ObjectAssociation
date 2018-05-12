@@ -80,7 +80,7 @@ Copy all files in the `{name}` directory into your project.
 
 == 🛌 Dependency
 
-* link:https://meniny.cn[DependencyName]
+{na}
 
 == ❤️ Contribution
 
